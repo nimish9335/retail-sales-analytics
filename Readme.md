@@ -521,7 +521,7 @@ Day 1 focused entirely on project initialization and environment setup. No data 
 
 # 📌 Project Completion Checklist
 
-- [ ] Project Setup
+- [x] Project Setup
 - [ ] Dataset Downloaded
 - [ ] Data Understanding
 - [ ] Data Cleaning
