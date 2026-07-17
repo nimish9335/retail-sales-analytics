@@ -234,8 +234,8 @@ A day is considered completed only after all the above steps are finished.
 
 # 📈 Progress Tracker
 
-- [ ] Day 1 - Project Setup
-- [ ] Day 2 - Dataset Understanding
+- [x] Day 1 - Project Setup
+- [x] Day 2 - Dataset Understanding
 - [ ] Day 3 - Data Cleaning (Part 1)
 - [ ] Day 4 - Data Cleaning (Part 2)
 - [ ] Day 5 - Feature Engineering
@@ -418,9 +418,115 @@ Day 1 focused entirely on project initialization and environment setup. No data 
 ---
 
 
-# ✅ Day 2 (Pending)
+# ✅ Day 2 - Dataset Understanding
 
-> This section will be updated after completing Day 2.
+## 🎯 Objective
+
+Understand the dataset structure, inspect its contents, verify data quality, and gain an initial business understanding before starting the data cleaning process.
+
+---
+
+## ✅ Tasks Completed
+
+- Downloaded and organized the retail sales dataset.
+- Loaded the dataset into a Pandas DataFrame.
+- Explored the dataset using basic Pandas functions.
+- Checked the dataset dimensions and column names.
+- Inspected data types and memory usage.
+- Generated statistical summaries for numerical columns.
+- Analyzed categorical columns.
+- Verified missing values.
+- Identified duplicate records.
+- Performed an initial business understanding of the dataset.
+
+---
+
+## 📁 Files Created / Modified
+
+- `notebooks/Day02_Dataset_Understanding.ipynb`
+
+---
+
+## 📚 Concepts Learned
+
+- Loading datasets using Pandas
+- Understanding dataset dimensions
+- Identifying numerical and categorical features
+- Interpreting statistical summaries
+- Inspecting data quality
+- Detecting duplicate records
+- Initial business understanding of retail data
+
+---
+
+## 💡 Today's Learning
+
+Before performing any data cleaning or visualization, it is essential to understand the dataset. Inspecting its structure, data types, summary statistics, and quality helps identify potential issues and supports informed analytical decisions.
+
+---
+
+## 📈 Business Impact
+
+The dataset represents retail sales transactions across different product categories, customer segments, cities, states, and regions within the United States.
+
+Initial exploration revealed:
+
+- No missing values across all columns.
+- 17 duplicate records that require cleaning.
+- Office Supplies is the most frequently sold product category.
+- Consumer is the largest customer segment.
+- Sales, Discount, and Profit will be the primary metrics for business analysis in the upcoming phases.
+
+---
+
+## 🧪 Testing
+
+Successfully verified:
+
+- Dataset loaded correctly.
+- Dataset contains **9,994 rows** and **13 columns**.
+- No missing values found.
+- 17 duplicate records detected.
+- Data types correctly identified by Pandas.
+
+All verification checks passed successfully.
+
+---
+
+## 📝 Notes
+
+Day 2 focused entirely on understanding the dataset before performing any modifications. No cleaning or transformation was applied. The original dataset remains unchanged and will be used as the source for the cleaning process in Day 3.
+
+---
+
+## 🎤 Interview Questions
+
+1. What is the difference between `df.info()` and `df.describe()`?
+2. Why is dataset understanding important before data cleaning?
+3. How do you identify missing values in Pandas?
+4. How can duplicate records be detected in Pandas?
+5. What is the difference between numerical and categorical columns?
+
+---
+
+## 💻 Pandas Functions Practiced
+
+- `pd.read_csv()`
+- `head()`
+- `shape`
+- `columns`
+- `info()`
+- `describe()`
+- `describe(include="object")`
+- `isnull().sum()`
+- `duplicated().sum()`
+- `dtypes`
+
+---
+
+## ✅ Status
+
+**Completed**
 
 ---
 
@@ -522,8 +628,8 @@ Day 1 focused entirely on project initialization and environment setup. No data 
 # 📌 Project Completion Checklist
 
 - [x] Project Setup
-- [ ] Dataset Downloaded
-- [ ] Data Understanding
+- [x] Dataset Downloaded
+- [x] Data Understanding
 - [ ] Data Cleaning
 - [ ] Feature Engineering
 - [ ] Exploratory Data Analysis
