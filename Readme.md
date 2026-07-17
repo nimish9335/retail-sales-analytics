@@ -236,7 +236,7 @@ A day is considered completed only after all the above steps are finished.
 
 - [x] Day 1 - Project Setup
 - [x] Day 2 - Dataset Understanding
-- [ ] Day 3 - Data Cleaning (Part 1)
+- [x] Day 3 - Data Cleaning (Part 1)
 - [ ] Day 4 - Data Cleaning (Part 2)
 - [ ] Day 5 - Feature Engineering
 - [ ] Day 6 - Exploratory Data Analysis
@@ -530,9 +530,116 @@ Day 2 focused entirely on understanding the dataset before performing any modifi
 
 ---
 
-# ✅ Day 3 (Pending)
+# ✅ Day 3 - Data Cleaning (Part 1)
 
-> This section will be updated after completing Day 3.
+## 🎯 Objective
+
+Perform the first phase of data cleaning by preserving the raw dataset, creating a working copy, identifying duplicate records, removing them, validating the cleaned data, and saving a cleaned version for further analysis.
+
+---
+
+## ✅ Tasks Completed
+
+- Created a working copy of the original dataset using `df.copy()`.
+- Verified that the original dataset remained unchanged.
+- Identified duplicate records.
+- Inspected duplicate rows before deletion.
+- Removed duplicate records from the working dataset.
+- Verified that all duplicates were successfully removed.
+- Saved the cleaned dataset into the `data/cleaned/` directory.
+- Loaded the cleaned dataset again for validation.
+- Verified dataset integrity after cleaning.
+
+---
+
+## 📁 Files Created / Modified
+
+- `notebooks/Day03_Data_Cleaning_Part1.ipynb`
+- `data/cleaned/SampleSuperstore_Cleaned.csv`
+
+---
+
+## 📚 Concepts Learned
+
+- Importance of preserving raw datasets
+- Working with DataFrame copies
+- Duplicate detection
+- Duplicate removal
+- Dataset validation
+- Saving cleaned datasets
+- Reproducible data cleaning workflow
+
+---
+
+## 💡 Today's Learning
+
+Data cleaning should never be performed on the original dataset. Creating a working copy ensures data safety and allows the cleaning process to remain reproducible. Validation after cleaning confirms that the processed dataset is accurate and ready for analysis.
+
+---
+
+## 📈 Business Impact
+
+Removing duplicate records improves data quality and prevents incorrect business metrics.
+
+Benefits include:
+
+- Accurate sales calculations
+- Correct profit analysis
+- Reliable KPI generation
+- Trustworthy dashboards
+- Better business decision-making
+
+---
+
+## 🧪 Testing
+
+Successfully verified:
+
+- Working copy created successfully.
+- Original dataset remained unchanged.
+- Duplicate records detected.
+- Duplicate records reduced from **17** to **0**.
+- Cleaned dataset saved successfully.
+- Validation confirmed the cleaned dataset contains **9,977 rows** and **13 columns**.
+- No missing values introduced during cleaning.
+
+All validation checks passed successfully.
+
+---
+
+## 📝 Notes
+
+The cleaned dataset has been saved separately while preserving the original dataset. This follows industry best practices for maintaining reproducible and reliable analytics pipelines.
+
+---
+
+## 🎤 Interview Questions
+
+1. Why should raw datasets never be modified directly?
+2. What is the difference between `df.copy()` and simple assignment (`=`)?
+3. Why should duplicate records be inspected before removal?
+4. How do you validate a cleaned dataset?
+5. Why should cleaned datasets be stored separately from raw data?
+
+---
+
+## 💻 Pandas Functions Practiced
+
+- `copy()`
+- `duplicated()`
+- `drop_duplicates()`
+- `to_csv()`
+- `read_csv()`
+- `shape`
+- `isnull().sum()`
+- `dtypes`
+- `head()`
+
+---
+
+## ✅ Status
+
+**Completed**
 
 ---
 
@@ -630,6 +737,7 @@ Day 2 focused entirely on understanding the dataset before performing any modifi
 - [x] Project Setup
 - [x] Dataset Downloaded
 - [x] Data Understanding
+- [x] Data Cleaning (Part 1 - Duplicate Removal)
 - [ ] Data Cleaning
 - [ ] Feature Engineering
 - [ ] Exploratory Data Analysis
