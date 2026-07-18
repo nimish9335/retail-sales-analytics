@@ -238,7 +238,7 @@ A day is considered completed only after all the above steps are finished.
 - [x] Day 2 - Dataset Understanding
 - [x] Day 3 - Data Cleaning (Part 1)
 - [x] Day 4 - Data Cleaning (Part 2)
-- [ ] Day 5 - Feature Engineering
+- [x] Day 5 - Feature Engineering
 - [ ] Day 6 - Exploratory Data Analysis
 - [ ] Day 7 - SQL Database Setup
 - [ ] Day 8 - SQL Business Queries
@@ -755,9 +755,111 @@ The dataset has now been fully validated and standardized. It is analysis-ready 
 
 ---
 
-# ✅ Day 5 (Pending)
+# ✅ Day 5 - Feature Engineering
 
-> This section will be updated after completing Day 5.
+## 🎯 Objective
+
+Create new business features from the cleaned dataset to improve analytical capabilities and simplify future SQL analysis, KPI generation, and Power BI dashboard development.
+
+---
+
+## ✅ Tasks Completed
+
+- Loaded the final cleaned dataset.
+- Created a working copy for feature engineering.
+- Created the **Profit Margin (%)** feature.
+- Created the **Average Selling Price** feature.
+- Created the **Discount Percentage** feature.
+- Validated all newly created features.
+- Verified there were no missing values introduced.
+- Saved the feature-engineered dataset for future analysis.
+
+---
+
+## 📁 Files Created / Modified
+
+- `notebooks/Day05_Feature_Engineering.ipynb`
+- `data/cleaned/SampleSuperstore_Feature_Engineered.csv`
+
+---
+
+## 📚 Concepts Learned
+
+- Feature Engineering
+- Derived business metrics
+- Vectorized operations in Pandas
+- Business KPI preparation
+- Creating new DataFrame columns
+- Dataset validation after feature creation
+
+---
+
+## 💡 Today's Learning
+
+Feature Engineering transforms raw business data into meaningful analytical features. Instead of repeatedly calculating important business metrics during analysis, creating derived features beforehand improves efficiency, consistency, and readability across SQL queries, dashboards, and reports.
+
+---
+
+## 📈 Business Impact
+
+The engineered features provide additional business insights:
+
+- **Profit Margin (%)** helps evaluate product profitability.
+- **Average Selling Price** helps understand pricing patterns.
+- **Discount Percentage** simplifies discount analysis and reporting.
+
+These features will be valuable for Exploratory Data Analysis, SQL reporting, KPI generation, and Power BI dashboards.
+
+---
+
+## 🧪 Testing
+
+Successfully verified:
+
+- Profit Margin (%) calculated correctly.
+- Average Selling Price calculated correctly.
+- Discount Percentage calculated correctly.
+- Dataset expanded from **13** to **16** columns.
+- No missing values introduced.
+- No duplicate records created.
+- Feature-engineered dataset saved successfully.
+
+All validation checks passed successfully.
+
+---
+
+## 📝 Notes
+
+The dataset now contains engineered business features that simplify future analysis. These derived metrics eliminate repetitive calculations and improve consistency across analytical workflows.
+
+---
+
+## 🎤 Interview Questions
+
+1. What is Feature Engineering?
+2. Why is Feature Engineering important in Data Analytics?
+3. What is Profit Margin and how is it calculated?
+4. What is Average Selling Price?
+5. Why should derived features be created before visualization?
+
+---
+
+## 💻 Pandas Functions Practiced
+
+- `copy()`
+- Column creation using vectorized operations
+- `round()`
+- `describe()`
+- `head()`
+- `isnull().sum()`
+- `to_csv()`
+- `read_csv()`
+
+---
+
+## ✅ Status
+
+**Completed**
 
 ---
 
@@ -845,7 +947,7 @@ The dataset has now been fully validated and standardized. It is analysis-ready 
 - [x] Data Understanding
 - [x] Data Cleaning (Part 1 - Duplicate Removal)
 - [x] Data Cleaning
-- [ ] Feature Engineering
+- [x] Feature Engineering
 - [ ] Exploratory Data Analysis
 - [ ] SQL Database Setup
 - [ ] SQL Business Analysis
