@@ -237,7 +237,7 @@ A day is considered completed only after all the above steps are finished.
 - [x] Day 1 - Project Setup
 - [x] Day 2 - Dataset Understanding
 - [x] Day 3 - Data Cleaning (Part 1)
-- [ ] Day 4 - Data Cleaning (Part 2)
+- [x] Day 4 - Data Cleaning (Part 2)
 - [ ] Day 5 - Feature Engineering
 - [ ] Day 6 - Exploratory Data Analysis
 - [ ] Day 7 - SQL Database Setup
@@ -643,9 +643,115 @@ The cleaned dataset has been saved separately while preserving the original data
 
 ---
 
-# ✅ Day 4 (Pending)
+# ✅ Day 4 - Data Cleaning (Part 2)
 
-> This section will be updated after completing Day 4.
+## 🎯 Objective
+
+Perform the second phase of data cleaning by validating data quality, inspecting numerical and categorical columns, standardizing text data, verifying business rules, and creating a final analysis-ready dataset.
+
+---
+
+## ✅ Tasks Completed
+
+- Loaded the cleaned dataset from Day 3.
+- Created a working copy of the dataset.
+- Inspected data types and dataset information.
+- Validated numerical columns using descriptive statistics.
+- Verified business rules for Sales, Quantity, Discount, and Profit.
+- Standardized text columns by removing leading and trailing spaces.
+- Validated categorical columns using `unique()` and `value_counts()`.
+- Performed final dataset validation.
+- Saved the final cleaned dataset for feature engineering.
+
+---
+
+## 📁 Files Created / Modified
+
+- `notebooks/Day04_Data_Cleaning_Part2.ipynb`
+- `data/cleaned/SampleSuperstore_Cleaned_Final.csv`
+
+---
+
+## 📚 Concepts Learned
+
+- Data validation
+- Business rule validation
+- Text standardization
+- Categorical data validation
+- Numerical data inspection
+- Dataset quality assurance
+- Analysis-ready dataset preparation
+
+---
+
+## 💡 Today's Learning
+
+Data cleaning is more than removing duplicates. Before analysis, datasets should be validated for numerical correctness, consistent categorical values, appropriate formatting, and overall data quality. These validation steps improve the reliability of future business analysis and dashboards.
+
+---
+
+## 📈 Business Impact
+
+Validating the dataset ensures:
+
+- Accurate business KPIs
+- Reliable sales and profit analysis
+- Consistent category-based reporting
+- Cleaner Power BI dashboards
+- Trustworthy business insights
+
+---
+
+## 🧪 Testing
+
+Successfully verified:
+
+- Dataset shape remained **(9977, 13)**.
+- No missing values found.
+- No duplicate records found.
+- Numerical columns satisfied business rules.
+- Text columns were standardized successfully.
+- Categorical values were consistent.
+- Final cleaned dataset saved successfully.
+
+All validation checks passed successfully.
+
+---
+
+## 📝 Notes
+
+The dataset has now been fully validated and standardized. It is analysis-ready and will be used as the foundation for Feature Engineering in Day 5.
+
+---
+
+## 🎤 Interview Questions
+
+1. What is data validation?
+2. Why is text standardization important?
+3. Why should business rules be validated before analysis?
+4. What is the purpose of `value_counts()`?
+5. How do you verify that a dataset is analysis-ready?
+
+---
+
+## 💻 Pandas Functions Practiced
+
+- `describe()`
+- `select_dtypes()`
+- `unique()`
+- `value_counts()`
+- `str.strip()`
+- `isnull().sum()`
+- `duplicated()`
+- `dtypes`
+- `to_csv()`
+- `read_csv()`
+
+---
+
+## ✅ Status
+
+**Completed**
 
 ---
 
@@ -738,7 +844,7 @@ The cleaned dataset has been saved separately while preserving the original data
 - [x] Dataset Downloaded
 - [x] Data Understanding
 - [x] Data Cleaning (Part 1 - Duplicate Removal)
-- [ ] Data Cleaning
+- [x] Data Cleaning
 - [ ] Feature Engineering
 - [ ] Exploratory Data Analysis
 - [ ] SQL Database Setup
