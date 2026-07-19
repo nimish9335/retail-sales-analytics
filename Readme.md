@@ -240,7 +240,7 @@ A day is considered completed only after all the above steps are finished.
 - [x] Day 4 - Data Cleaning (Part 2)
 - [x] Day 5 - Feature Engineering
 - [x] Day 6 - Exploratory Data Analysis
-- [ ] Day 7 - SQL Database Setup
+- [x] Day 7 - SQL Database Setup
 - [ ] Day 8 - SQL Business Queries
 - [ ] Day 9 - Advanced SQL Analysis
 - [ ] Day 10 - Business KPI Analysis
@@ -989,9 +989,138 @@ Perform Exploratory Data Analysis (EDA) on the cleaned and feature-engineered re
 
 ---
 
-# ✅ Day 7 (Pending)
+### Day 7: MySQL Database Setup & SQL Analytics Fundamentals
 
-> This section will be updated after completing Day 7.
+#### 🎯 Objective
+Set up a MySQL database, import the cleaned retail sales dataset, and perform SQL-based business analysis using aggregate functions, grouping, sorting, and filtering techniques.
+
+#### 📚 Topics Covered
+- MySQL Database Setup
+- Table Creation
+- CSV Data Import
+- Data Verification
+- Aggregate Functions
+- GROUP BY
+- ORDER BY
+- LIMIT
+- DISTINCT
+- Business KPI Analysis
+- Business Case Study Queries
+
+#### ✅ Tasks Completed
+
+##### 1. Database Setup
+- Created a new MySQL database (`retail_sales_db`).
+- Selected the database for analysis.
+- Verified database creation.
+
+##### 2. Table Creation
+- Designed the `retail_sales` table.
+- Selected appropriate SQL data types for each feature.
+- Created the table using `CREATE TABLE`.
+- Verified table schema using `DESCRIBE`.
+
+##### 3. Data Import
+- Imported the cleaned feature-engineered CSV dataset into MySQL.
+- Verified successful import by checking sample records.
+- Confirmed total record count matched the cleaned dataset.
+
+##### 4. Data Validation
+- Verified table structure.
+- Checked for missing (NULL) values.
+- Ensured imported data integrity before analysis.
+
+##### 5. Aggregate Functions
+Practiced SQL aggregate functions:
+- COUNT()
+- SUM()
+- AVG()
+- MIN()
+- MAX()
+- ROUND()
+
+Calculated:
+- Total Sales
+- Total Profit
+- Average Sales
+- Average Profit
+- Average Discount
+- Average Quantity
+- Highest Sale
+- Lowest Sale
+- Highest Profit
+- Biggest Loss
+
+##### 6. GROUP BY Analysis
+Performed grouped business analysis for:
+- Category
+- Region
+- Customer Segment
+- State
+- Sub-Category
+
+Calculated:
+- Total Sales
+- Total Profit
+- Average Sales
+- Average Profit
+- Order Counts
+
+##### 7. ORDER BY & LIMIT
+Generated ranked business reports:
+- Top 5 States by Sales
+- Top 5 States by Profit
+- Top 10 Cities by Sales
+- Top 10 Cities by Profit
+- Top 5 Most Profitable Sub-Categories
+- Bottom 5 Loss-Making Sub-Categories
+
+##### 8. DISTINCT Operations
+Retrieved unique values for:
+- Categories
+- Regions
+- Customer Segments
+
+Calculated:
+- Number of Unique Cities
+
+##### 9. Business Case Study Queries
+Solved real-world business questions such as:
+- Highest profit generating category
+- Region with highest average sales
+- Segment with maximum quantity sold
+- Sub-category with highest average discount
+- States with highest sales and profit
+- Top and bottom performing cities
+- Category-wise average profit margin
+- Region-wise average discount
+- Segment-wise average selling price
+- Top and bottom sub-categories by quantity sold
+- Orders by region
+- Average sales and profit by ship mode
+
+#### 💡 Key Learnings
+- Understood SQL database creation and table design.
+- Learned how to import CSV datasets into MySQL.
+- Validated imported data before analysis.
+- Mastered SQL aggregate functions.
+- Learned data grouping using `GROUP BY`.
+- Generated ranked reports using `ORDER BY` and `LIMIT`.
+- Retrieved unique information using `DISTINCT`.
+- Solved multiple real-world business analytics problems using SQL.
+- Improved SQL query writing and analytical thinking.
+
+#### 📂 Deliverables
+- MySQL Database (`retail_sales_db`)
+- `retail_sales` SQL Table
+- Imported Retail Sales Dataset
+- `sql/schema.sql`
+- `sql/day07_queries.sql`
+- Business KPI Queries
+- Business Case Study Queries
+
+#### 🚀 Status
+✅ Day 7 Completed Successfully
 
 ---
 
@@ -1069,7 +1198,7 @@ Perform Exploratory Data Analysis (EDA) on the cleaned and feature-engineered re
 - [x] Data Cleaning
 - [x] Feature Engineering
 - [x] Exploratory Data Analysis
-- [ ] SQL Database Setup
+- [x] SQL Database Setup
 - [ ] SQL Business Analysis
 - [ ] Python Visualizations
 - [ ] Power BI Dashboard
