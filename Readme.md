@@ -239,7 +239,7 @@ A day is considered completed only after all the above steps are finished.
 - [x] Day 3 - Data Cleaning (Part 1)
 - [x] Day 4 - Data Cleaning (Part 2)
 - [x] Day 5 - Feature Engineering
-- [ ] Day 6 - Exploratory Data Analysis
+- [x] Day 6 - Exploratory Data Analysis
 - [ ] Day 7 - SQL Database Setup
 - [ ] Day 8 - SQL Business Queries
 - [ ] Day 9 - Advanced SQL Analysis
@@ -863,9 +863,129 @@ The dataset now contains engineered business features that simplify future analy
 
 ---
 
-# ✅ Day 6 (Pending)
+# ✅ Day 6 (Completed)
 
-> This section will be updated after completing Day 6.
+## Objective
+
+Perform Exploratory Data Analysis (EDA) on the cleaned and feature-engineered retail sales dataset to identify business trends, customer behavior, geographical performance, and profitability insights through statistical analysis and data visualization.
+
+---
+
+## Topics Covered
+
+- Dataset Overview
+- Data Quality Verification
+- Statistical Summary
+- Numerical Feature Distribution
+- Category Analysis
+- Sub-Category Analysis
+- Customer Segment Analysis
+- Regional Analysis
+- State-wise Analysis
+- City-wise Analysis
+- Discount Analysis
+- Correlation Analysis
+- Sales vs Profit Analysis
+- Boxplot Analysis
+- Business Insights Generation
+
+> **Note:** Monthly Sales Trend and Monthly Profit Trend analysis were skipped because the feature-engineered dataset did not contain the `Order Date` column.
+
+---
+
+## Tasks Completed
+
+### Dataset Exploration
+
+- Loaded the feature-engineered dataset.
+- Created a working copy for EDA.
+- Examined dataset shape, columns, data types, and descriptive statistics.
+- Verified that the dataset contained no missing values or duplicate records.
+
+### Distribution Analysis
+
+- Analyzed the distribution of Sales, Profit, Quantity, Discount, Profit Margin (%), Average Selling Price, and Discount Percentage.
+- Identified skewed distributions and high-value transactions using histograms.
+
+### Category & Product Analysis
+
+- Analyzed order count by Category.
+- Calculated total Sales by Category.
+- Calculated total Profit by Category.
+- Evaluated Sales and Profit for each Sub-Category.
+- Identified high-performing and low-performing product groups.
+
+### Customer Segment Analysis
+
+- Compared order distribution across customer segments.
+- Analyzed Sales by Segment.
+- Analyzed Profit by Segment.
+
+### Geographical Analysis
+
+- Compared Sales and Profit across Regions.
+- Identified the top-performing States by Sales and Profit.
+- Identified the top-performing Cities by Sales and Profit.
+
+### Discount Analysis
+
+- Calculated average Discount by Category.
+- Visualized Discount distribution.
+- Studied the relationship between Discount and Profit using a scatter plot.
+
+### Correlation Analysis
+
+- Computed the correlation matrix for numerical features.
+- Visualized feature relationships using a heatmap.
+- Interpreted positive and negative correlations.
+
+### Sales vs Profit Analysis
+
+- Examined the relationship between Sales and Profit using a scatter plot.
+- Identified profitable and loss-making transactions.
+
+### Outlier Detection
+
+- Used boxplots to detect outliers in:
+  - Sales
+  - Profit
+  - Discount
+  - Quantity
+
+### Business Insights
+
+- Summarized analytical findings into actionable business insights.
+- Identified profitable markets, product categories, and customer segments.
+- Highlighted the impact of discounts on profitability.
+
+---
+
+## Key Learnings
+
+- Performed end-to-end Exploratory Data Analysis using Pandas and Seaborn.
+- Applied aggregation techniques using `groupby()`.
+- Created business-focused visualizations using Matplotlib and Seaborn.
+- Interpreted statistical summaries and data distributions.
+- Identified business trends through geographical and customer analysis.
+- Understood how discounts influence profitability.
+- Detected outliers and interpreted feature correlations.
+- Converted analytical findings into meaningful business recommendations.
+
+---
+
+## Deliverables
+
+- Exploratory Data Analysis Notebook
+- Business Visualizations
+- Statistical Summary
+- Business Insights Report
+- Updated Project Documentation
+
+---
+
+## Status
+
+✅ Day 6 Completed Successfully
 
 ---
 
@@ -948,7 +1068,7 @@ The dataset now contains engineered business features that simplify future analy
 - [x] Data Cleaning (Part 1 - Duplicate Removal)
 - [x] Data Cleaning
 - [x] Feature Engineering
-- [ ] Exploratory Data Analysis
+- [x] Exploratory Data Analysis
 - [ ] SQL Database Setup
 - [ ] SQL Business Analysis
 - [ ] Python Visualizations
