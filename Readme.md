@@ -241,7 +241,7 @@ A day is considered completed only after all the above steps are finished.
 - [x] Day 5 - Feature Engineering
 - [x] Day 6 - Exploratory Data Analysis
 - [x] Day 7 - SQL Database Setup
-- [ ] Day 8 - SQL Business Queries
+- [x] Day 8 - SQL Business Queries
 - [ ] Day 9 - Advanced SQL Analysis
 - [ ] Day 10 - Business KPI Analysis
 - [ ] Day 11 - Python Visualizations
@@ -1124,9 +1124,118 @@ Solved real-world business questions such as:
 
 ---
 
-# ✅ Day 8 (Pending)
+### Day 8: Advanced SQL for Data Analysis
 
-> This section will be updated after completing Day 8.
+#### 🎯 Objective
+Learn advanced SQL techniques for filtering, conditional logic, grouping, and solving real-world business problems using SQL.
+
+#### 📚 Topics Covered
+- WHERE Clause
+- Comparison Operators
+- BETWEEN
+- IN
+- LIKE
+- Logical Operators (AND, OR, NOT)
+- HAVING Clause
+- CASE WHEN
+- String Functions
+- Business Case Study Queries
+
+#### ✅ Tasks Completed
+
+##### 1. WHERE Clause
+Filtered records based on:
+- Category
+- Region
+- Segment
+- Sales
+- Profit
+- Discount
+- Quantity
+
+##### 2. Comparison Operators
+Applied:
+- >
+- <
+- >=
+- <=
+- =
+- !=
+- BETWEEN
+- IN
+- NOT IN
+
+##### 3. LIKE Operator
+Performed pattern matching using:
+- Starts With
+- Ends With
+- Contains
+
+##### 4. Logical Operators
+Built conditional queries using:
+- AND
+- OR
+- NOT
+
+##### 5. HAVING Clause
+Filtered grouped results after aggregation.
+
+Performed analysis on:
+- Categories
+- Regions
+- States
+- Cities
+- Customer Segments
+- Sub-Categories
+
+##### 6. WHERE + GROUP BY + HAVING
+Combined filtering and aggregation to answer business questions.
+
+##### 7. CASE WHEN
+Created custom business categories for:
+- Profit Levels
+- Discount Levels
+
+Generated summarized reports using conditional logic.
+
+##### 8. String Functions
+Practiced:
+- UPPER()
+- LOWER()
+- LENGTH()
+- CONCAT()
+
+##### 9. Business Case Study Queries
+Solved multiple real-world business questions including:
+- Highest average sales
+- Highest average profit
+- Highest average discount
+- Highest average selling price
+- Ship mode performance
+- State-wise average sales
+- City-wise average profit
+- Region-wise quantity analysis
+- Category maximum sales
+- Sub-category maximum profit
+- Dashboard KPI generation
+
+#### 💡 Key Learnings
+- Mastered SQL filtering techniques.
+- Learned advanced conditional querying.
+- Used HAVING for aggregate filtering.
+- Applied CASE WHEN for business classification.
+- Performed string manipulation using SQL functions.
+- Solved real-world business analytics problems.
+- Improved SQL problem-solving skills.
+
+#### 📂 Deliverables
+- sql/day08_queries.sql
+- Advanced SQL Practice Queries
+- Business Case Study Queries
+- Dashboard KPI Queries
+
+#### 🚀 Status
+✅ Day 8 Completed Successfully
 
 ---
 
@@ -1199,7 +1308,7 @@ Solved real-world business questions such as:
 - [x] Feature Engineering
 - [x] Exploratory Data Analysis
 - [x] SQL Database Setup
-- [ ] SQL Business Analysis
+- [x] SQL Business Analysis
 - [ ] Python Visualizations
 - [ ] Power BI Dashboard
 - [ ] Business Insights
