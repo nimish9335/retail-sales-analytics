@@ -242,7 +242,7 @@ A day is considered completed only after all the above steps are finished.
 - [x] Day 6 - Exploratory Data Analysis
 - [x] Day 7 - SQL Database Setup
 - [x] Day 8 - SQL Business Queries
-- [ ] Day 9 - Advanced SQL Analysis
+- [x] Day 9 - Advanced SQL Analysis
 - [ ] Day 10 - Business KPI Analysis
 - [ ] Day 11 - Python Visualizations
 - [ ] Day 12 - Power BI Dashboard
@@ -1239,9 +1239,224 @@ Solved multiple real-world business questions including:
 
 ---
 
-# ✅ Day 9 (Pending)
+# ✅ Day 9 - Advanced SQL Analysis
 
-> This section will be updated after completing Day 9.
+## 🎯 Objective
+
+Perform advanced SQL analysis using industry-standard SQL techniques to solve complex business problems. Learn advanced querying methods including Subqueries, Correlated Subqueries, Common Table Expressions (CTEs), Window Functions, Ranking Functions, Running Totals, and Executive KPI analysis.
+
+---
+
+## 📚 Topics Covered
+
+- Subqueries
+- Correlated Subqueries
+- Common Table Expressions (CTEs)
+- Window Functions
+- ROW_NUMBER()
+- RANK()
+- DENSE_RANK()
+- NTILE()
+- LAG()
+- LEAD()
+- Running Totals
+- Running Average
+- Percentage Contribution
+- Business KPI Analysis
+- Executive Dashboard Queries
+
+---
+
+## ✅ Tasks Completed
+
+### 1. Subqueries
+
+- Retrieved records using scalar subqueries.
+- Compared sales and profit against overall averages.
+- Identified high-performing states, customers, and product categories.
+- Solved aggregate-based business problems using nested queries.
+
+### 2. Correlated Subqueries
+
+- Compared each record with the average of its respective group.
+- Analyzed category-wise sales performance.
+- Compared customer purchases against their own averages.
+- Evaluated region, state, and segment-level performance.
+
+### 3. Common Table Expressions (CTEs)
+
+- Created reusable SQL query blocks.
+- Generated category-wise sales reports.
+- Built regional profit summaries.
+- Created state and city performance reports.
+- Generated customer and product analysis reports.
+
+### 4. Window Functions
+
+Implemented advanced analytical SQL functions including:
+
+- ROW_NUMBER()
+- RANK()
+- DENSE_RANK()
+- NTILE()
+- LAG()
+- LEAD()
+- Running Total
+- Running Average
+- Cumulative Quantity
+
+Applied partitioning to generate:
+
+- Category-wise rankings
+- Region-wise rankings
+- Top products
+- Top customers
+- Running business metrics
+
+### 5. Advanced Business Case Studies
+
+Solved multiple real-world business problems including:
+
+- Top Customers by Sales
+- Revenue Contribution by Category
+- Profit Contribution by Region
+- Top Selling Products
+- Most Profitable Products
+- Top Cities by Sales
+- Bottom Cities by Profit
+- Category-wise Profit Margin
+- Regional Discount Analysis
+- High Value Customers
+- Loss Making Products
+- Executive Dashboard KPIs
+
+---
+
+## 📁 Files Created / Modified
+
+- `sql/day09_advanced_sql.sql`
+
+---
+
+## 📚 Concepts Learned
+
+- Advanced SQL Query Writing
+- Nested Queries
+- Correlated Queries
+- Common Table Expressions (CTEs)
+- Window Functions
+- SQL Ranking Functions
+- Running Calculations
+- Analytical Reporting
+- Business KPI Generation
+- Executive Dashboard Metrics
+
+---
+
+## 💡 Today's Learning
+
+Advanced SQL enables analysts to solve complex business problems efficiently. Features such as CTEs and Window Functions simplify query logic, improve readability, and support advanced analytical reporting. These concepts are widely used in real-world business intelligence, reporting systems, and dashboard development.
+
+---
+
+## 📈 Business Impact
+
+The advanced SQL analysis provided valuable business insights by:
+
+- Identifying top-performing customers and products.
+- Measuring revenue and profit contribution across categories and regions.
+- Ranking products, customers, and regions based on business performance.
+- Detecting loss-making products.
+- Generating executive-level KPIs for management dashboards.
+- Supporting data-driven business decision making.
+
+---
+
+## 🧪 Testing
+
+Successfully verified:
+
+- All subqueries executed correctly.
+- Correlated subqueries produced expected results.
+- CTE reports generated successfully.
+- Window Functions returned accurate rankings and running calculations.
+- Business KPI queries executed without errors.
+- Executive Dashboard queries generated consolidated business metrics.
+
+All validation checks passed successfully.
+
+---
+
+## 📝 Notes
+
+Day 9 focused on mastering advanced SQL concepts commonly used in Data Analyst roles. The implemented queries closely resemble real-world reporting scenarios and prepare the project for KPI analysis and dashboard development.
+
+---
+
+## 🎤 Interview Questions
+
+1. What is a Subquery?
+2. What is the difference between a Subquery and a Correlated Subquery?
+3. What is a Common Table Expression (CTE)?
+4. Why are CTEs preferred over nested queries?
+5. What are Window Functions?
+6. What is the difference between ROW_NUMBER(), RANK(), and DENSE_RANK()?
+7. What is the purpose of PARTITION BY?
+8. What is a Running Total?
+9. Where are LAG() and LEAD() functions used?
+10. How are Window Functions useful in Business Analytics?
+
+---
+
+## 💻 SQL Concepts Practiced
+
+- Scalar Subqueries
+- Aggregate Subqueries
+- Correlated Subqueries
+- WITH Clause (CTE)
+- ROW_NUMBER()
+- RANK()
+- DENSE_RANK()
+- NTILE()
+- LAG()
+- LEAD()
+- SUM() OVER()
+- AVG() OVER()
+- PARTITION BY
+- ORDER BY
+- GROUP BY
+- HAVING
+- Business KPI Queries
+
+---
+
+## 📊 Day 9 Statistics
+
+- Subqueries: 15
+- Correlated Subqueries: 10
+- Common Table Expressions (CTEs): 15
+- Window Function Queries: 15
+- Business Case Study Queries: 15
+
+**Total Advanced SQL Queries:** **70**
+
+---
+
+## 📂 Deliverables
+
+- `sql/day09_advanced_sql.sql`
+- Advanced SQL Practice Queries
+- Correlated Subquery Examples
+- CTE Examples
+- Window Function Examples
+- Business KPI Queries
+- Executive Dashboard Queries
+
+---
+
+## ✅ Status
+
+**Completed Successfully**
 
 ---
 
