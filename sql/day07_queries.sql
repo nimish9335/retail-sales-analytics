@@ -31,6 +31,19 @@ DESCRIBE retail_sales;
 SHOW VARIABLES LIKE 'local_infile';
 SELECT VERSION();
 
+-- =====================================================
+-- IMPORTANT NOTE
+--
+-- This project uses a cleaned Retail Sales dataset.
+-- Therefore, columns such as Customer_ID, Customer_Name,
+-- Product_ID, and Product_Name are not available.
+--
+-- Some KPI queries related to customer and product analysis
+-- are included for learning purposes and are intended to run
+-- on the original Superstore dataset containing these fields.
+--
+-- =====================================================
+
 SELECT *
 FROM retail_sales
 LIMIT 10;
