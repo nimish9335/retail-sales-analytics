@@ -245,7 +245,7 @@ A day is considered completed only after all the above steps are finished.
 - [x] Day 9 - Advanced SQL Analysis
 - [x] Day 10 - Business KPI Analysis
 - [x] Day 11 - Python Visualizations
-- [ ] Day 12 - Power BI Dashboard
+- [x] Day 12 - Power BI Dashboard
 - [ ] Day 13 - Dashboard Enhancement
 - [ ] Day 14 - Business Insights
 - [ ] Day 15 - Testing & Documentation
@@ -1847,9 +1847,227 @@ The project now includes professional-quality visualizations and an executive da
 
 ---
 
-# ✅ Day 12 (Pending)
+# ✅ Day 12 – Power BI Dashboard Development
 
-> This section will be updated after completing Day 12.
+## 🎯 Objective
+
+Build an interactive Power BI dashboard to visualize retail sales performance using key business KPIs and charts. The goal was to transform SQL-generated business metrics into an executive-level dashboard that supports data-driven decision making.
+
+---
+
+## 📚 Topics Covered
+
+- Power BI Desktop
+- Data Import
+- Data Modeling
+- DAX Measures
+- KPI Cards
+- Bar Charts
+- Column Charts
+- Interactive Slicers
+- Dashboard Design
+- Data Visualization Best Practices
+
+---
+
+## ✅ Tasks Completed
+
+### 1. Dataset Import
+
+- Imported the feature-engineered retail sales dataset into Power BI.
+- Verified successful data loading.
+- Checked column names and data types.
+
+### 2. Data Modeling
+
+Created and verified business measures using DAX.
+
+Implemented:
+
+- Total Sales
+- Total Profit
+- Total Orders
+- Total Quantity
+- Average Sales
+- Average Profit
+- Average Discount
+- Profit Margin %
+
+---
+
+### 3. KPI Cards
+
+Created executive KPI cards for:
+
+- Total Sales
+- Total Profit
+- Total Orders
+- Total Quantity
+- Profit Margin %
+
+Formatted cards with:
+
+- Large KPI values
+- Business-friendly labels
+- Consistent styling
+
+---
+
+### 4. Business Visualizations
+
+Created the following interactive charts:
+
+- Sales by Category
+- Sales by Region
+- Top 10 States by Sales
+
+Applied:
+
+- Proper sorting
+- Data labels
+- Professional titles
+- Clean formatting
+
+---
+
+### 5. Interactive Filters
+
+Added slicers for:
+
+- Category
+- Region
+- Segment
+
+Configured slicers to filter all dashboard visuals dynamically.
+
+---
+
+### 6. Dashboard Design
+
+Designed a clean executive dashboard featuring:
+
+- Dashboard title
+- KPI summary section
+- Business charts
+- Interactive filters
+- Consistent spacing and alignment
+
+---
+
+## 📁 Files Created / Modified
+
+- `powerbi/Retail_Sales_Analytics.pbix`
+
+---
+
+## 📚 Concepts Learned
+
+- Power BI Interface
+- Data Import
+- DAX Measure Creation
+- KPI Dashboard Design
+- Interactive Reporting
+- Business Dashboard Layout
+- Slicer Configuration
+- Executive Reporting
+
+---
+
+## 💡 Today's Learning
+
+Power BI transforms raw business data into interactive dashboards that help management monitor business performance efficiently. Using DAX measures, KPI cards, charts, and slicers enables users to analyze sales performance from multiple business perspectives without writing additional queries.
+
+---
+
+## 📈 Business Impact
+
+The Power BI dashboard provides valuable business insights by:
+
+- Monitoring overall sales performance.
+- Tracking total profit and profitability.
+- Comparing sales across product categories.
+- Evaluating regional sales performance.
+- Identifying top-performing states.
+- Enabling interactive business analysis using filters.
+
+---
+
+## 🧪 Testing
+
+Successfully verified:
+
+- Dataset imported correctly.
+- All DAX measures returned expected values.
+- KPI cards displayed accurate metrics.
+- Charts matched SQL and Python analysis.
+- Slicers filtered all visuals correctly.
+- Dashboard loaded without errors.
+
+All validation checks passed successfully.
+
+---
+
+## 📝 Notes
+
+This dashboard serves as the foundation for an executive business reporting system. Additional enhancements such as advanced visualizations, drill-through pages, custom themes, and business insights will be implemented in the next development phase.
+
+---
+
+## 🎤 Interview Questions
+
+1. What is Power BI?
+2. What is the difference between a calculated column and a measure?
+3. What is DAX?
+4. Why are KPI cards used in dashboards?
+5. What is a slicer in Power BI?
+6. Why are measures preferred over calculated columns for KPIs?
+7. How do slicers improve dashboard usability?
+8. What makes a dashboard interactive?
+9. What are the key components of an executive dashboard?
+10. How does Power BI support business decision-making?
+
+---
+
+## 💻 Power BI Concepts Practiced
+
+- Data Import
+- Data Modeling
+- DAX Measures
+- KPI Cards
+- Bar Charts
+- Column Charts
+- Top N Analysis
+- Interactive Slicers
+- Dashboard Formatting
+- Executive Dashboard Design
+
+---
+
+## 📊 Day 12 Statistics
+
+- DAX Measures Created: 8
+- KPI Cards: 5
+- Business Charts: 3
+- Interactive Slicers: 3
+- Dashboard Pages: 1
+
+---
+
+## 📂 Deliverables
+
+- `powerbi/Retail_Sales_Analytics.pbix`
+- Executive Power BI Dashboard
+- KPI Cards
+- Sales Analysis Dashboard
+- Interactive Business Filters
+
+---
+
+## ✅ Status
+
+**Completed Successfully**
+
+---
 
 ---
 
@@ -1900,11 +2118,11 @@ The project now includes professional-quality visualizations and an executive da
 - [x] SQL Database Setup
 - [x] SQL Business Analysis
 - [x] Python Visualizations
-- [ ] Power BI Dashboard
+- [x] Power BI Dashboard
 - [ ] Business Insights
 - [ ] Testing
 - [ ] Documentation
-- [ ] GitHub Repository
+- [ ] GitHub RepositoryS
 - [ ] Resume Updated
 
 ---
