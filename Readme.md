@@ -14,6 +14,30 @@ The objective is not only to build dashboards but also to understand the complet
 
 ---
 
+## 📸 Dashboard Preview
+
+### 📈 Sales Performance Dashboard
+
+<p align="center">
+  <img src="images/sales_performance_dashboard.png" width="100%">
+</p>
+
+---
+
+### 💰 Profitability Dashboard
+
+<p align="center">
+  <img src="images/profitability_dashboard.png" width="100%">
+</p>
+
+---
+
+### 👥 Customer & Product Analysis
+
+<p align="center">
+  <img src="images/customer_product_analysis.png" width="100%">
+</p>
+
 # 🎯 Project Objectives
 
 - Build a complete end-to-end Data Analytics project.
@@ -246,7 +270,7 @@ A day is considered completed only after all the above steps are finished.
 - [x] Day 10 - Business KPI Analysis
 - [x] Day 11 - Python Visualizations
 - [x] Day 12 - Power BI Dashboard
-- [ ] Day 13 - Dashboard Enhancement
+- [x] Day 13 - Dashboard Enhancement
 - [ ] Day 14 - Business Insights
 - [ ] Day 15 - Testing & Documentation
 - [ ] Day 16 - Final Review & GitHub
@@ -2071,9 +2095,297 @@ This dashboard serves as the foundation for an executive business reporting syst
 
 ---
 
-# ✅ Day 13 (Pending)
+# ✅ Day 13 – Power BI Dashboard Enhancement
 
-> This section will be updated after completing Day 13.
+## 🎯 Objective
+
+Enhance the Power BI dashboard by transforming the initial single-page report into a professional multi-page business intelligence dashboard. The focus was on improving dashboard organization, business storytelling, KPI presentation, interactive analysis, and user experience.
+
+---
+
+## 📚 Topics Covered
+
+- Multi-Page Dashboard Design
+- Business Dashboard Layout
+- KPI Organization
+- Dashboard Navigation
+- Advanced DAX Measures
+- Interactive Filtering
+- Chart Selection
+- Top N Analysis
+- Business Storytelling
+- Dashboard Formatting Best Practices
+
+---
+
+## ✅ Tasks Completed
+
+### 1. Dashboard Restructuring
+
+Converted the dashboard into three dedicated business analysis pages:
+
+- Sales Performance Dashboard
+- Profitability Dashboard
+- Customer & Product Analysis
+
+Each page focuses on a different business objective to improve readability and analysis.
+
+---
+
+### 2. Sales Performance Dashboard
+
+Created an executive sales dashboard containing:
+
+KPIs
+
+- Total Sales
+- Total Orders
+- Total Quantity
+- Average Sales
+- Average Discount
+
+Business Visualizations
+
+- Sales by Category
+- Sales by Region
+- Top 10 States by Sales
+- Top 10 Cities by Sales
+
+Interactive Filters
+
+- Category
+- Region
+- Segment
+
+---
+
+### 3. Profitability Dashboard
+
+Built a dedicated profitability analysis dashboard.
+
+KPIs
+
+- Total Profit
+- Profit Margin %
+- Average Profit
+- Average Discount
+- Average Selling Price
+
+Business Visualizations
+
+- Profit by Category
+- Profit by Region
+- Profit by Sub-Category
+- Top 10 States by Profit
+
+Interactive Filters
+
+- Category
+- Region
+- Segment
+
+---
+
+### 4. Customer & Product Analysis Dashboard
+
+Designed a dashboard focused on customer behavior and product performance.
+
+KPIs
+
+- Total Orders
+- Average Selling Price
+- Total Quantity
+- Average Discount
+- Profit Margin %
+
+Business Visualizations
+
+- Sales by Ship Mode
+- Sales by Segment
+- Sales by Sub-Category
+- Quantity by Category
+- Profit Margin % by Category
+
+Interactive Filters
+
+- Category
+- Region
+- Segment
+
+---
+
+### 5. Dashboard Enhancement
+
+Improved dashboard usability by:
+
+- Creating dedicated business pages
+- Removing duplicate visuals
+- Selecting meaningful KPIs
+- Applying Top N filtering
+- Organizing visuals logically
+- Improving dashboard readability
+- Maintaining consistent layouts
+- Enhancing business storytelling
+
+---
+
+### 6. DAX Improvements
+
+Updated and verified business measures including:
+
+- Profit Margin %
+- Average Selling Price
+- Average Discount
+- Total Orders
+- Total Quantity
+
+Corrected percentage formatting for Profit Margin to ensure accurate KPI reporting.
+
+---
+
+### 7. Dashboard Formatting
+
+Applied professional dashboard formatting:
+
+- Consistent KPI cards
+- Rounded visual containers
+- Proper spacing and alignment
+- Business-friendly titles
+- Data labels
+- Professional color themes
+- Clean dashboard layout
+
+---
+
+## 📁 Files Created / Modified
+
+- `powerbi/Retail_Sales_Analytics.pbix`
+
+---
+
+## 📚 Concepts Learned
+
+- Multi-page Dashboard Design
+- Executive Dashboard Development
+- KPI Selection
+- Dashboard Storytelling
+- DAX Measure Formatting
+- Interactive Filtering
+- Business Visualization
+- Top N Analysis
+- Dashboard Organization
+- Power BI Best Practices
+
+---
+
+## 💡 Today's Learning
+
+A well-designed dashboard is not just a collection of charts. Separating dashboards based on business objectives improves usability, enables faster decision-making, and helps stakeholders focus on the right KPIs.
+
+---
+
+## 📈 Business Impact
+
+The enhanced dashboard enables business users to:
+
+- Monitor overall sales performance
+- Analyze profitability across categories and regions
+- Identify high-performing and low-performing products
+- Compare customer segments
+- Analyze shipping preferences
+- Evaluate product distribution
+- Monitor profit margins
+- Perform interactive business analysis using slicers
+
+---
+
+## 🧪 Testing
+
+Successfully verified:
+
+- All KPI cards display correct values
+- DAX measures return expected results
+- Profit Margin percentage formatting is correct
+- Top N filters work correctly
+- Interactive slicers filter all visuals
+- Charts display expected business insights
+- Dashboard pages load without errors
+- No duplicate or redundant visuals remain
+
+All dashboard validation tests passed successfully.
+
+---
+
+## 📝 Notes
+
+The dashboard now consists of three professional business intelligence pages:
+
+- Sales Performance Dashboard
+- Profitability Dashboard
+- Customer & Product Analysis
+
+The design follows industry-standard dashboard development practices and is suitable for portfolio presentation, executive reporting, and interview demonstrations.
+
+---
+
+## 🎤 Interview Questions
+
+1. Why should dashboards be divided into multiple pages?
+2. What makes a dashboard interactive?
+3. How do KPI cards support business decision-making?
+4. What is Top N filtering in Power BI?
+5. Why is DAX formatting important?
+6. How do slicers improve dashboard usability?
+7. What is the difference between Sales and Profit analysis?
+8. Why should dashboard visuals avoid duplication?
+9. How do business dashboards improve executive reporting?
+10. What are the key principles of professional dashboard design?
+
+---
+
+## 💻 Power BI Concepts Practiced
+
+- Dashboard Enhancement
+- Multi-Page Reports
+- DAX Measures
+- KPI Cards
+- Top N Filtering
+- Bar Charts
+- Column Charts
+- Donut Charts
+- Interactive Slicers
+- Business Dashboard Design
+- Executive Reporting
+- Dashboard Formatting
+
+---
+
+## 📊 Day 13 Statistics
+
+- Dashboard Pages: 3
+- KPI Cards: 15
+- Business Charts: 13
+- Interactive Slicers: 9
+- DAX Measures Used: 10+
+- Top N Visuals: 3
+
+---
+
+## 📂 Deliverables
+
+- `powerbi/Retail_Sales_Analytics.pbix`
+- Sales Performance Dashboard
+- Profitability Dashboard
+- Customer & Product Analysis Dashboard
+- Executive Business Dashboard
+
+---
+
+## ✅ Status
+
+**Completed Successfully**
+
+---
 
 ---
 
